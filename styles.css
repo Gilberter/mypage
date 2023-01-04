@@ -23,9 +23,10 @@ body {
 }
 .body-conteiner ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     border-bottom: 1px solid var(--very-light-pink);
     border-top: 1px solid var(--very-light-pink);
+    align-items: center;
 
     
     
@@ -60,15 +61,21 @@ body {
 }
 .nav-bar-left {
     align-items: center;
+    
 }
+
 .nav-bar-left ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    list-style: none;
     
     
+}
+.nav-bar-left ul li a{
+    outline-style: none;
 }
 a {
     color: var(--white);
