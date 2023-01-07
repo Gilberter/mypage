@@ -31,7 +31,7 @@ body {
     border-top: 1px solid var(--very-light-pink);
     align-items: center;
     list-style: none;
-    padding: 0;
+
     
     
     
@@ -45,7 +45,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 200px;
-    margin: 0 20px;
+    margin: 20px 30px;
     gap: 10px;
     
 
